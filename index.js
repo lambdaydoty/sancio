@@ -9,7 +9,7 @@ const F$ = require ('fluture-sanctuary-types')
 const FN = require ('fluture-node')
 const Z = require ('sanctuary-type-classes')
 const daggy = require ('daggy')
-const validation = require ('./validation')
+const V = require ('./validation')
 const extend = require ('./extend')
 
 const env0 = [...S0.env, ...F$.env]
@@ -19,7 +19,6 @@ module.exports = function (env = [/* types */]) {
   const S_ = S.unchecked
   const def = $.create ({ checkTypes: true, env: [...env, ...env0] })
   const E = extend (S)
-  const V = validation (S)
   E.unchecked = extend (S.unchecked)
 
   return {
