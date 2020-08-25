@@ -1,0 +1,37 @@
+{
+  "name": "sancio",
+  "version": "0.0.1",
+  "description": "A Wrapper For Sanctuary Ecosystem",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-lambdaydoty:lambdaydoty/sancio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "daggy": "^1.4.0",
+    "fluture": "^12.3.1",
+    "fluture-node": "^2.1.0",
+    "fluture-sanctuary-types": "^6.0.1",
+    "folktale": "^2.3.2",
+    "sanctuary": "^3.0.0",
+    "sanctuary-def": "^0.21.1",
+    "sanctuary-show": "^2.0.0",
+    "sanctuary-type-classes": "^12.1.0",
+    "sanctuary-type-identifiers": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0"
+  }
+}
